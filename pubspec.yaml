@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   flare_flutter: ^2.0.6
+  smart_flare: ^0.2.9+1
 
 dev_dependencies:
   flutter_test:

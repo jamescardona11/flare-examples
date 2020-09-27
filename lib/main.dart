@@ -1,6 +1,8 @@
 import 'package:flare_examples/bottommenu/bottom_menu_view.dart';
 import 'package:flutter/material.dart';
 
+import 'drawer/drawer_view.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -24,6 +26,7 @@ class MyApp extends StatelessWidget {
 class _NavigatorIntern extends StatelessWidget {
   final Map<String, Widget> screens = {
     'Bottom Menu': BottomMenuView(),
+    'Drawer': DrawerView(),
   };
 
   @override

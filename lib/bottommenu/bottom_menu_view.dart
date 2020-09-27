@@ -60,7 +60,7 @@ class __BottomMenuWidgetState extends State<_BottomMenuWidget> {
           }
         },
         child: FlareActor(
-          'assets/button_animation.flr',
+          'assets/bottommenu/button_animation.flr',
           animation: 'deactivate',
           controller: animationControls,
         ),
